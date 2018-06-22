@@ -7,8 +7,8 @@ ab = search.GPSProblem('A', 'B', search.romania)
 # print search.breadth_first_graph_search(ab).path()
 # print search.depth_first_graph_search(ab).path()
 # This is mine
-print search.ramification_dimensioning_graph_search(ab).path(), "\n"
-print search.ramification_dimensioning_h_graph_search(ab).path()
+print search.ramificacion_salto_graph(ab).path(), "\n"
+print search.ramificacion_salto_heuristica_graph(ab).path()
 # print search.iterative_deepening_search(ab).path()
 # print search.depth_limited_search(ab).path()
 

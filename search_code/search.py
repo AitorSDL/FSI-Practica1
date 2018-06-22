@@ -149,14 +149,14 @@ def depth_first_graph_search(problem):
     return graph_search(problem, Stack())
 
 
-def ramification_dimensioning_graph_search(problem):
+def ramificacion_salto_graph(problem):
     """This is mine"""
-    return graph_search(problem, RamificationDimensioningQueue())
+    return graph_search(problem, RamificacionSalto())
 
 
-def ramification_dimensioning_h_graph_search(problem):
+def ramificacion_salto_heuristica_graph(problem):
     """This is mine"""
-    return graph_search(problem, RamificationDimensioningHQueue())
+    return graph_search(problem, RamificacionSaltoHeuristica())
 
 
 def depth_limited_search(problem, limit=50):

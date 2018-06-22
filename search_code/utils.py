@@ -735,7 +735,7 @@ def Stack():
     return []
 
 
-class RamificationDimensioningQueue():
+class RamificacionSalto():
     # This is mine
     def __init__(self):
         self.A = []
@@ -751,7 +751,7 @@ class RamificationDimensioningQueue():
         self.A.sort(key=lambda item: -item.path_cost)
 
 
-class RamificationDimensioningHQueue():
+class RamificacionSaltoHeuristica():
     # This is mine
     def __init__(self):
         self.A = []
